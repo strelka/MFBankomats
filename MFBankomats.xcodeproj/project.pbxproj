@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3125C56A8771E44D0A2F2752 /* libPods-MFBankomats.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC6DD90D4595C94C76210AC /* libPods-MFBankomats.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		921BC8CB1EBF65D100B004D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 921BC8CA1EBF65D100B004D2 /* main.m */; };
+		921BC8CE1EBF65D100B004D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 921BC8CD1EBF65D100B004D2 /* AppDelegate.m */; };
+		921BC8D61EBF65D100B004D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 921BC8D51EBF65D100B004D2 /* Assets.xcassets */; };
+		9242F9971EE942F7007FA9A8 /* MFBMapTableDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9242F9961EE942F7007FA9A8 /* MFBMapTableDelegate.m */; };
+		9242F99A1EE980C9007FA9A8 /* MFBMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9242F9991EE980C9007FA9A8 /* MFBMapView.m */; };
+		9242F9A11EE9E0AB007FA9A8 /* MFBCustomAtmCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9242F9A01EE9E0AB007FA9A8 /* MFBCustomAtmCell.m */; };
+		9258C1FD1EC27E7500C7498A /* MFBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258C1FC1EC27E7500C7498A /* MFBTabBarController.m */; };
+		9258C2001EC283FC00C7498A /* MFBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9258C1FF1EC283FC00C7498A /* MFBTableViewController.m */; };
+		92BE90871EC05D610047C689 /* MFBMapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BE90861EC05D610047C689 /* MFBMapController.m */; };
+		92BE90961EC0C4440047C689 /* MFBGetDataFromGoogle.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BE90951EC0C4440047C689 /* MFBGetDataFromGoogle.m */; };
+		92C7BD091EC10F3400B8731B /* MFBAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C7BD081EC10F3400B8731B /* MFBAnnotation.m */; };
+		92CAC3ED1EC43A7F00C6616C /* MFBRouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CAC3EC1EC43A7F00C6616C /* MFBRouteViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		356C837F40A1F32D92DB9FC2 /* Pods-MFBankomats.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFBankomats.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MFBankomats/Pods-MFBankomats.debug.xcconfig"; sourceTree = "<group>"; };
+		3B256474D0C2F4B0E4AADF81 /* Pods-MFBankomats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFBankomats.release.xcconfig"; path = "Pods/Target Support Files/Pods-MFBankomats/Pods-MFBankomats.release.xcconfig"; sourceTree = "<group>"; };
+		5EC6DD90D4595C94C76210AC /* libPods-MFBankomats.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MFBankomats.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		921BC8C61EBF65D100B004D2 /* MFBankomats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFBankomats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		921BC8CA1EBF65D100B004D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		921BC8CC1EBF65D100B004D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		921BC8CD1EBF65D100B004D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		921BC8D51EBF65D100B004D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		921BC8DA1EBF65D100B004D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9242F9951EE942F7007FA9A8 /* MFBMapTableDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFBMapTableDelegate.h; sourceTree = "<group>"; };
+		9242F9961EE942F7007FA9A8 /* MFBMapTableDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFBMapTableDelegate.m; sourceTree = "<group>"; };
+		9242F9981EE980C9007FA9A8 /* MFBMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFBMapView.h; sourceTree = "<group>"; };
+		9242F9991EE980C9007FA9A8 /* MFBMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFBMapView.m; sourceTree = "<group>"; };
+		9242F99E1EE98A3C007FA9A8 /* MFBMapViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFBMapViewDelegate.h; sourceTree = "<group>"; };
+		9242F99F1EE9E0AB007FA9A8 /* MFBCustomAtmCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFBCustomAtmCell.h; sourceTree = "<group>"; };
+		9242F9A01EE9E0AB007FA9A8 /* MFBCustomAtmCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFBCustomAtmCell.m; sourceTree = "<group>"; };
+		9258C1FB1EC27E7500C7498A /* MFBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFBTabBarController.h; sourceTree = "<group>"; };
+		9258C1FC1EC27E7500C7498A /* MFBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFBTabBarController.m; sourceTree = "<group>"; };
+		9258C1FE1EC283FC00C7498A /* MFBTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFBTableViewController.h; sourceTree = "<group>"; };
+		9258C1FF1EC283FC00C7498A /* MFBTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFBTableViewController.m; sourceTree = "<group>"; };
+		92BE90851EC05D610047C689 /* MFBMapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFBMapController.h; sourceTree = "<group>"; };
+		92BE90861EC05D610047C689 /* MFBMapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFBMapController.m; sourceTree = "<group>"; };
+		92BE90941EC0C4440047C689 /* MFBGetDataFromGoogle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFBGetDataFromGoogle.h; sourceTree = "<group>"; };
+		92BE90951EC0C4440047C689 /* MFBGetDataFromGoogle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFBGetDataFromGoogle.m; sourceTree = "<group>"; };
+		92C7BD071EC10F3400B8731B /* MFBAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFBAnnotation.h; sourceTree = "<group>"; };
+		92C7BD081EC10F3400B8731B /* MFBAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFBAnnotation.m; sourceTree = "<group>"; };
+		92CAC3EB1EC43A7F00C6616C /* MFBRouteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFBRouteViewController.h; sourceTree = "<group>"; };
+		92CAC3EC1EC43A7F00C6616C /* MFBRouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFBRouteViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		921BC8C31EBF65D100B004D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3125C56A8771E44D0A2F2752 /* libPods-MFBankomats.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48DE651E184FE277FB2D7E50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EC6DD90D4595C94C76210AC /* libPods-MFBankomats.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		921BC8BD1EBF65D100B004D2 = {
+			isa = PBXGroup;
+			children = (
+				921BC8C81EBF65D100B004D2 /* MFBankomats */,
+				921BC8C71EBF65D100B004D2 /* Products */,
+				CC1A09543294A9EE0B935B4F /* Pods */,
+				48DE651E184FE277FB2D7E50 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		921BC8C71EBF65D100B004D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				921BC8C61EBF65D100B004D2 /* MFBankomats.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		921BC8C81EBF65D100B004D2 /* MFBankomats */ = {
+			isa = PBXGroup;
+			children = (
+				92BE90931EC0C39A0047C689 /* Controller */,
+				92BE90921EC0C38D0047C689 /* View */,
+				92BE90911EC0C37D0047C689 /* Model */,
+				92BE90901EC0C3650047C689 /* Service */,
+				921BC8CC1EBF65D100B004D2 /* AppDelegate.h */,
+				921BC8CD1EBF65D100B004D2 /* AppDelegate.m */,
+				921BC8D51EBF65D100B004D2 /* Assets.xcassets */,
+				921BC8DA1EBF65D100B004D2 /* Info.plist */,
+				921BC8C91EBF65D100B004D2 /* Supporting Files */,
+			);
+			path = MFBankomats;
+			sourceTree = "<group>";
+		};
+		921BC8C91EBF65D100B004D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				921BC8CA1EBF65D100B004D2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92BE90901EC0C3650047C689 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				92BE90941EC0C4440047C689 /* MFBGetDataFromGoogle.h */,
+				92BE90951EC0C4440047C689 /* MFBGetDataFromGoogle.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		92BE90911EC0C37D0047C689 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92C7BD071EC10F3400B8731B /* MFBAnnotation.h */,
+				92C7BD081EC10F3400B8731B /* MFBAnnotation.m */,
+				9242F99F1EE9E0AB007FA9A8 /* MFBCustomAtmCell.h */,
+				9242F9A01EE9E0AB007FA9A8 /* MFBCustomAtmCell.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		92BE90921EC0C38D0047C689 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9242F9981EE980C9007FA9A8 /* MFBMapView.h */,
+				9242F9991EE980C9007FA9A8 /* MFBMapView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		92BE90931EC0C39A0047C689 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92BE90851EC05D610047C689 /* MFBMapController.h */,
+				92BE90861EC05D610047C689 /* MFBMapController.m */,
+				9258C1FB1EC27E7500C7498A /* MFBTabBarController.h */,
+				9258C1FE1EC283FC00C7498A /* MFBTableViewController.h */,
+				9258C1FF1EC283FC00C7498A /* MFBTableViewController.m */,
+				92CAC3EB1EC43A7F00C6616C /* MFBRouteViewController.h */,
+				92CAC3EC1EC43A7F00C6616C /* MFBRouteViewController.m */,
+				9258C1FC1EC27E7500C7498A /* MFBTabBarController.m */,
+				9242F9951EE942F7007FA9A8 /* MFBMapTableDelegate.h */,
+				9242F9961EE942F7007FA9A8 /* MFBMapTableDelegate.m */,
+				9242F99E1EE98A3C007FA9A8 /* MFBMapViewDelegate.h */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CC1A09543294A9EE0B935B4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				356C837F40A1F32D92DB9FC2 /* Pods-MFBankomats.debug.xcconfig */,
+				3B256474D0C2F4B0E4AADF81 /* Pods-MFBankomats.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		921BC8C51EBF65D100B004D2 /* MFBankomats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 921BC8DD1EBF65D100B004D2 /* Build configuration list for PBXNativeTarget "MFBankomats" */;
+			buildPhases = (
+				EAA5A9FEE301AE8A3D717AF7 /* [CP] Check Pods Manifest.lock */,
+				921BC8C21EBF65D100B004D2 /* Sources */,
+				921BC8C31EBF65D100B004D2 /* Frameworks */,
+				921BC8C41EBF65D100B004D2 /* Resources */,
+				2174C6755E7FF2480A1E60AB /* [CP] Embed Pods Frameworks */,
+				AB21BB6057BC952154BD4DCF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MFBankomats;
+			productName = MFBankomats;
+			productReference = 921BC8C61EBF65D100B004D2 /* MFBankomats.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		921BC8BE1EBF65D100B004D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Julia Sharaeva";
+				TargetAttributes = {
+					921BC8C51EBF65D100B004D2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = P85JQ5XGQC;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 921BC8C11EBF65D100B004D2 /* Build configuration list for PBXProject "MFBankomats" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 921BC8BD1EBF65D100B004D2;
+			productRefGroup = 921BC8C71EBF65D100B004D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				921BC8C51EBF65D100B004D2 /* MFBankomats */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		921BC8C41EBF65D100B004D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921BC8D61EBF65D100B004D2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2174C6755E7FF2480A1E60AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MFBankomats/Pods-MFBankomats-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB21BB6057BC952154BD4DCF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MFBankomats/Pods-MFBankomats-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAA5A9FEE301AE8A3D717AF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		921BC8C21EBF65D100B004D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C7BD091EC10F3400B8731B /* MFBAnnotation.m in Sources */,
+				9242F99A1EE980C9007FA9A8 /* MFBMapView.m in Sources */,
+				9242F9A11EE9E0AB007FA9A8 /* MFBCustomAtmCell.m in Sources */,
+				9258C1FD1EC27E7500C7498A /* MFBTabBarController.m in Sources */,
+				92BE90871EC05D610047C689 /* MFBMapController.m in Sources */,
+				92CAC3ED1EC43A7F00C6616C /* MFBRouteViewController.m in Sources */,
+				9258C2001EC283FC00C7498A /* MFBTableViewController.m in Sources */,
+				921BC8CE1EBF65D100B004D2 /* AppDelegate.m in Sources */,
+				921BC8CB1EBF65D100B004D2 /* main.m in Sources */,
+				9242F9971EE942F7007FA9A8 /* MFBMapTableDelegate.m in Sources */,
+				92BE90961EC0C4440047C689 /* MFBGetDataFromGoogle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		921BC8DB1EBF65D100B004D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		921BC8DC1EBF65D100B004D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		921BC8DE1EBF65D100B004D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 356C837F40A1F32D92DB9FC2 /* Pods-MFBankomats.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P85JQ5XGQC;
+				INFOPLIST_FILE = MFBankomats/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.MFBankomats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		921BC8DF1EBF65D100B004D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B256474D0C2F4B0E4AADF81 /* Pods-MFBankomats.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P85JQ5XGQC;
+				INFOPLIST_FILE = MFBankomats/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.MFBankomats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		921BC8C11EBF65D100B004D2 /* Build configuration list for PBXProject "MFBankomats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921BC8DB1EBF65D100B004D2 /* Debug */,
+				921BC8DC1EBF65D100B004D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		921BC8DD1EBF65D100B004D2 /* Build configuration list for PBXNativeTarget "MFBankomats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921BC8DE1EBF65D100B004D2 /* Debug */,
+				921BC8DF1EBF65D100B004D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 921BC8BE1EBF65D100B004D2 /* Project object */;
+}
